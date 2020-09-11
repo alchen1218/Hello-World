@@ -1,4 +1,4 @@
-set -e
+#!/bin/bash
 
 mvn --version
 
