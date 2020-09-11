@@ -1,8 +1,6 @@
 set -e
 
 mvn --version
-terraform --version
-terragrunt --version
 
 echo "Running the build_and_deploy.sh script"
 
