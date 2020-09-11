@@ -12,6 +12,7 @@ pushd ../terraform-TESTING/asana-jira-integration-lambda
   ls
   python --version
   python3 --version
+  python3 HelloWorld.py
 popd
 
 # This script assumes that the terraform repo is a sibling to this repo
