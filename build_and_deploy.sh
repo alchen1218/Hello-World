@@ -1,6 +1,5 @@
 set -e
 
-mvn package
 mvn --version
 terraform --version
 terragrunt --version
