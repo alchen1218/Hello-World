@@ -2,6 +2,9 @@ set -e
 
 mvn --version
 
+/usr/local/bin/terraform --version
+/usr/local/bin/terragrunt --version
+
 echo "Running the build_and_deploy.sh script"
 
 pushd ../terraform-TESITNG/asana-jira-integration-lambda
