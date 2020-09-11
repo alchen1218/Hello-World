@@ -6,6 +6,8 @@ terraform --version
 terragrunt --version
 
 pushd ../HELLO-WORLD-1/TESTING
+  python --version
+  python3 --version
   python HelloWorld.py
   python3 HelloWorld.py
 popd
