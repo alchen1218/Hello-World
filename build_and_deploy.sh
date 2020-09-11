@@ -12,7 +12,6 @@ pushd ../terraform-TESTING/asana-jira-integration-lambda
   ls
   python --version
   python3 --version
-  /usr/local/bin/terragrunt init
 popd
 
 # This script assumes that the terraform repo is a sibling to this repo
