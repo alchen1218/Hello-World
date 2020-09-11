@@ -5,7 +5,9 @@ mvn --version
 terraform --version
 terragrunt --version
 
-pushd ../HELLO-WORLD-1/TESTING
+echo "Running the build_and_deploy.sh script"
+
+pushd ../HELLO-WORLD-1/TERRAFORM-TESTING
   python --version
   python3 --version
   python HelloWorld.py
