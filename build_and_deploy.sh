@@ -7,7 +7,7 @@ terragrunt --version
 
 echo "Running the build_and_deploy.sh script"
 
-pushd ../HELLO-WORLD-1/TERRAFORM-TESTING
+pushd ../terraform-TESITNG/asana-jira-integration-lambda
   python --version
   python3 --version
   python HelloWorld.py
