@@ -7,7 +7,7 @@ mvn --version
 
 echo "Running the build_and_deploy.sh script"
 
-pushd /terraform-TESTING/terraform-TESTING/asana-jira-integration-lambda
+pushd ../terraform-TESTING/terraform-TESTING/asana-jira-integration-lambda
   pwd
   ls
   python --version
