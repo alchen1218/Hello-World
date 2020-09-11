@@ -9,6 +9,7 @@ echo "Running the build_and_deploy.sh script"
 
 pushd ../terraform-TESTING/asana-jira-integration-lambda
   pwd
+  ls
   python --version
   python3 --version
   python HelloWorld.py
